@@ -5,6 +5,10 @@ import java.util.Date;
 
 public class Curso implements Serializable {
 
+    public static void setDescripcion(String string) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     private Long id;
     private String nombre;
     private String codigo;
