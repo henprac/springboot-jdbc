@@ -6,7 +6,9 @@ import java.util.Date;
 public class Curso implements Serializable {
 
     public static void setDescripcion(String string) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        throw new UnsupportedOperationException("Not supported yet.");
+        
+//To change body of generated methods, choose Tools | Templates.
     }
 
     private Long id;
@@ -54,5 +56,10 @@ public class Curso implements Serializable {
     public void setPrograma(Programa programa) {
         this.programa = programa;
     }
+
+    public Object getDescripcion() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
 
 }

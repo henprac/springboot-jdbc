@@ -1,4 +1,4 @@
-ackage pe.edu.tecsup.database.dao.jdbc;
+package pe.edu.tecsup.database.dao.jdbc;
 
 import java.util.List;
 import javax.annotation.PostConstruct;
